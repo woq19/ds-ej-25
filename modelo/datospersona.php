@@ -1,9 +1,9 @@
 <?php
 
 class DatosPersona{
-    $Id=1;
-    $Nombre='Daniel';
-    $Apellido='Rodriguez';
-    $Documento='12456789';
-    $Direccion=
+    public $Id;
+    public $Nombre;
+    public $Apellido;
+    public $Documento;
+    public $Direccion;
 }

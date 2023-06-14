@@ -1,6 +1,6 @@
 <?php
 
-class prestamo{
+class Prestamo{
     public $Id;
     public $LineaPrestamo;
     public $Titular;
@@ -9,7 +9,7 @@ class prestamo{
     public $MontoCapital;
 
     public function MostrarDatos(){
-        echo 'Id: '. $this->Id. '<br>';
+        echo 'Id prestamo: '. $this->Id. '<br>';
         echo 'Linea de prestamo Id: '. $this->LineaPrestamo->Id. '<br>';
         echo 'Linea de prestamo Descripcion: '. $this->LineaPrestamo->Descripcion. '<br>';
         echo 'Linea de prestamo Taza: '. $this->LineaPrestamo->TazaEfectivaMensual. '<br>';

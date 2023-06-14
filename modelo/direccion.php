@@ -1,11 +1,11 @@
 <?php
 
 class Direccion{
-    $Id=1;
-    $Calle='Montevideo';
-    $Numero=34;
-    $Localidad='Rosario';
-    $Provincia=
+    public $Id;
+    public $Calle;
+    public $Numero;
+    public $Localidad;
+    public $Provincia;
 
 
 }
